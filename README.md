@@ -7,6 +7,7 @@ This project fine-tunes a pre-trained Arabic BERT model, AraBERT, for the task o
 ## 📂 Project Structure
 
 .
+
 ├── nlp_dataset/                 
 ├── results/                     
 ├── trained_model/               
