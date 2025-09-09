@@ -63,3 +63,11 @@ Follow the instructions in the "Handling Large Files" section to get the dataset
 Open BERT-Arabic_Text_Generation.ipynb in your preferred Jupyter environment (e.g., Jupyter Notebook, JupyterLab, VS Code).
 
 Run all the cells in the notebook sequentially. The training process will automatically save checkpoints and the final model in the results/ and trained_model/ directories, respectively.
+
+Contributors:
+
+- Abdulaziz Alhaizan
+
+- Feras Aldawsari
+
+- Abdulelah Bin Obaid
