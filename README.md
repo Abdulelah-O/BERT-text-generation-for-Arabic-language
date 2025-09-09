@@ -1,22 +1,26 @@
-BERT-Arabic_Text_Generation
+# 📝 BERT-Arabic Text Generation
+
 This project fine-tunes a pre-trained Arabic BERT model, AraBERT, for the task of Masked Language Modeling (MLM). The model is trained on a custom Arabic text dataset to learn contextual representations and is then used to complete masked tokens in Arabic sentences, effectively performing text generation.
 
-Features
+## 🚀 Features
+
 Data Processing: Loads and tokenizes a custom Arabic text dataset.
 
 Model Fine-tuning: Fine-tunes the aubmindlab/bert-base-arabertv02 model for the MLM task.
 
 Text Generation: Uses the fine-tuned model to predict and complete masked tokens in sentences.
 
-Project Structure
+## 📂 Project Structure
 .
 ├── dataset/          # Contains the raw Arabic text data (excluded from Git)
 ├── trained_model/        # Stores the fine-tuned model and tokenizer (excluded from Git)
 ├── results/              # Holds model checkpoints and training logs (excluded from Git)
 └── BERT-Arabic_Text_Generation.ipynb # The main Jupyter Notebook with the project code
 
-Getting Started
+Getting Started:
+
 Prerequisites
+
 Python 3.6+
 
 PyTorch
