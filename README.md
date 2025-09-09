@@ -4,11 +4,11 @@ This project fine-tunes a pre-trained Arabic BERT model, AraBERT, for the task o
 
 # 🚀 Features
 
-Data Processing: Loads and tokenizes a custom Arabic text dataset.
+**Data Processing:** Loads and tokenizes a custom Arabic text dataset.
 
-Model Fine-tuning: Fine-tunes the aubmindlab/bert-base-arabertv02 model for the MLM task.
+**Model Fine-tuning:** Fine-tunes the aubmindlab/bert-base-arabertv02 model for the MLM task.
 
-Text Generation: Uses the fine-tuned model to predict and complete masked tokens in sentences.
+**Text Generation:** Uses the fine-tuned model to predict and complete masked tokens in sentences.
 
 # 📂 Project Structure
 .
@@ -35,15 +35,15 @@ You can install the required libraries by running:
 ```
 pip install torch transformers datasets
 ```
-1. **Handling Large Files**
+**1. Handling Large Files**
 The nlp_dataset/ and results/ directories contain files that exceed GitHub's file size limit. These directories are intentionally excluded from the repository using a .gitignore file.
 
-Dataset: You can download the public dataset from the official website. Here's the link https://sourceforge.net/projects/kalimat/files/kalimat/document-collection/
+**Dataset:** You can download the public dataset from the official website. Here's the link https://sourceforge.net/projects/kalimat/files/kalimat/document-collection/
 
-Trained Model: You can re-run the BERT-Arabic_Text_Generation.ipynb notebook to train the model from scratch on your local machine after obtaining the dataset.
+**Trained Model:** You can re-run the BERT-Arabic_Text_Generation.ipynb notebook to train the model from scratch on your local machine after obtaining the dataset.
 
-2. Running the Code
-Clone the Repository:
+**2. Running the Code**
+**Clone the Repository:**
 ```
 git clone https://github.com/Abdulelah-O/BERT-text-generation-for-Arabic-language.git
 ```
@@ -53,11 +53,11 @@ cd BERT-text-generation-for-Arabic-language
 
 ```
 
-Download or Set up the Data:
+**Download or Set up the Data:**
 
 Follow the instructions in the "Handling Large Files" section to get the dataset/ directory.
 
-Run the Notebook:
+**Run the Notebook:**
 
 Open BERT-Arabic_Text_Generation.ipynb in your preferred Jupyter environment (e.g., Jupyter Notebook, JupyterLab, VS Code).
 
