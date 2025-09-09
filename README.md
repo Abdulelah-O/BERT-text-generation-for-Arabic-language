@@ -1,23 +1,53 @@
-# 📝 BERT-Arabic_Text_Generation: Fine-tuning AraBERT for Arabic Text Completion
+BERT-Arabic_Text_Generation
+This project fine-tunes a pre-trained Arabic BERT model, AraBERT, for the task of Masked Language Modeling (MLM). The model is trained on a custom Arabic text dataset to learn contextual representations and is then used to complete masked tokens in Arabic sentences, effectively performing text generation.
 
-This project fine-tunes a pre-trained Arabic BERT model, AraBERT, for the task of Masked Language Modeling (MLM). The model is trained on a custom Arabic text dataset to learn contextual representations specific to the provided data. The fine-tuned model is then used to predict and complete masked tokens in Arabic sentences, effectively performing a form of text generation.
+Features
+Data Processing: Loads and tokenizes a custom Arabic text dataset.
 
----
+Model Fine-tuning: Fine-tunes the aubmindlab/bert-base-arabertv02 model for the MLM task.
 
-## 📂 Project Structure
+Text Generation: Uses the fine-tuned model to predict and complete masked tokens in sentences.
 
+Project Structure
 .
+├── dataset/          # Contains the raw Arabic text data (excluded from Git)
+├── trained_model/        # Stores the fine-tuned model and tokenizer (excluded from Git)
+├── results/              # Holds model checkpoints and training logs (excluded from Git)
+└── BERT-Arabic_Text_Generation.ipynb # The main Jupyter Notebook with the project code
 
-├── nlp_dataset/                 
-├── results/                     
-├── trained_model/               
-├── BERT-Arabic_Text_Genration.ipynb
+Getting Started
+Prerequisites
+Python 3.6+
 
+PyTorch
 
-- nlp_dataset/: Contains the raw Arabic text data, organized into different categories. This data is used for training the model.
+Transformers library
 
-- trained_model/: This directory stores the fine-tuned AraBERT model and its tokenizer after the training process is complete.
+Datasets library
 
-- results/: This folder holds the training outputs, including model checkpoints and training logs.
+You can install the required libraries by running:
 
-- BERT-Arabic_Text_Generation.ipynb: The main Jupyter Notebook containing the code for data loading, model training, and text completion.
+pip install torch transformers datasets
+
+1. Handling Large Files
+The nlp_dataset/ and results/ directories contain files that exceed GitHub's file size limit. These directories are intentionally excluded from the repository using a .gitignore file.
+
+Dataset: You can download the public dataset from the official website. Here's the link https://sourceforge.net/projects/kalimat/files/kalimat/document-collection/
+
+Trained Model: You can re-run the BERT-Arabic_Text_Generation.ipynb notebook to train the model from scratch on your local machine after obtaining the dataset.
+
+2. Running the Code
+Clone the Repository:
+
+git clone https://github.com/Abdulelah-O/BERT-text-generation-for-Arabic-language.git
+cd BERT-text-generation-for-Arabic-language
+
+Download or Set up the Data:
+
+Follow the instructions in the "Handling Large Files" section to get the dataset/ directory.
+
+Run the Notebook:
+
+Open BERT-Arabic_Text_Generation.ipynb in your preferred Jupyter environment (e.g., Jupyter Notebook, JupyterLab, VS Code).
+
+Run all the cells in the notebook sequentially. The training process will automatically save checkpoints and the final model in the results/ and trained_model/ directories, respectively.
