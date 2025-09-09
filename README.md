@@ -1,4 +1,4 @@
-# 📝 BERT-Arabic Text Generation
+# 📝 araBERT-Arabic Text Generation
 
 This project fine-tunes a pre-trained Arabic BERT model, AraBERT, for the task of Masked Language Modeling (MLM). The model is trained on a custom Arabic text dataset to learn contextual representations and is then used to complete masked tokens in Arabic sentences, effectively performing text generation.
 
