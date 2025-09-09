@@ -7,22 +7,19 @@ This project fine-tunes a pre-trained Arabic BERT model, AraBERT, for the task o
 ## 📂 Project Structure
 
 .
-├── nlp_dataset/         
-│     ├──  articles-culture/    
-│     ├──  articles-economy/  
-│     ├──  ...    
-├── trained_model/ 
-│     ├── config.json
-│     ├── pytorch_model.bin  
-│     ├── tokenizer.json
-│     ├── special_token_map.json
-│     ├── ...
-├── resutls/
-│     ├── checkpoint-1000/
-│     ├── chechpoint-2000/
-│     ├── ...
-│
-└── BERT-Arabic_Text_Generation.ipynb
+├── nlp_dataset/ # Dataset (not uploaded – see instructions below)
+├── results/ # Training results & logs (not uploaded)
+├── trained_model/ # Trained model weights (not uploaded)
+├── src/
+│ ├── data_preprocessing.py # Arabic text preprocessing functions
+│ ├── model_training.py # Model training script
+│ ├── text_generation.py # Text generation script
+│ └── utils.py # Helper utilities
+├── BERT-Arabic_Text_Genration.ipynb # Main notebook (step-by-step demo)
+├── requirements.txt # Dependencies
+├── .gitignore # Exclude large files/folders
+└── README.md # Project documentation
+
 
 - nlp_dataset/: Contains the raw Arabic text data, organized into different categories. This data is used for training the model.
 
