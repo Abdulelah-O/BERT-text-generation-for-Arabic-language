@@ -12,7 +12,7 @@ Text Generation: Uses the fine-tuned model to predict and complete masked tokens
 
 ## 📂 Project Structure
 .
-├── dataset/     # Contains the raw Arabic text data (excluded from Git)            
+├── dataset/         # Contains the raw Arabic text data (excluded from Git)            
 ├── results/         # Stores the fine-tuned model and tokenizer (excluded from Git)                
 ├── trained_model/   # Holds model checkpoints and training logs (excluded from Git)              
 ├── BERT-Arabic_Text_Genration.ipynb    # The main Jupyter Notebook with the project code
