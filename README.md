@@ -37,7 +37,7 @@ pip install torch transformers datasets
 ```
 
 **1. Handling Large Files**
-The nlp_dataset/ and results/ directories contain files that exceed GitHub's file size limit. These directories are intentionally excluded from the repository using a .gitignore file.
+The dataset/ and results/ directories contain files that exceed GitHub's file size limit. These directories are intentionally excluded from the repository using a .gitignore file.
 
 **Dataset:** You can download the public dataset from the official website. Here's the link https://sourceforge.net/projects/kalimat/files/kalimat/document-collection/
 
