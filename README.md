@@ -1,6 +1,6 @@
 # 📝 BERT-Arabic Text Generation
 
-This repository contains an implementation of **Arabic text generation** using **BERT** and Hugging Face’s `transformers` library.  
+This repository contains an implementation of **Arabic text generation** using **BERT** model.  
 It demonstrates how to preprocess Arabic text, fine-tune a model, and generate fluent Arabic sentences.  
 
 ---
