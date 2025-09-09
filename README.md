@@ -18,9 +18,9 @@ Text Generation: Uses the fine-tuned model to predict and complete masked tokens
 ├── trained_model/   # Holds model checkpoints and training logs (excluded from Git)              
 ├── BERT-Arabic_Text_Genration.ipynb    # The main Jupyter Notebook with the project code
 
-Getting Started:
+## Getting Started:
 
-Prerequisites
+# Prerequisites
 
 Python 3.6+
 
