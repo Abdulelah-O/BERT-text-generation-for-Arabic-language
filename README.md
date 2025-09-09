@@ -35,6 +35,7 @@ You can install the required libraries by running:
 ```
 pip install torch transformers datasets
 ```
+
 **1. Handling Large Files**
 The nlp_dataset/ and results/ directories contain files that exceed GitHub's file size limit. These directories are intentionally excluded from the repository using a .gitignore file.
 
