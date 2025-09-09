@@ -20,7 +20,7 @@ Text Generation: Uses the fine-tuned model to predict and complete masked tokens
 
 ## Getting Started:
 
-# Prerequisites
+Prerequisites
 
 Python 3.6+
 
