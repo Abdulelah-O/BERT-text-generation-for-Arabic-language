@@ -1,0 +1,38 @@
+
+---
+
+## 🚀 Features
+- Preprocessing Arabic text (cleaning, normalization, tokenization)
+- Fine-tuning **BERT** for text generation
+- Training & evaluation
+- Text generation with custom prompts
+- Sample results included in notebook
+
+---
+
+## 📊 Dataset
+The dataset is **not included in this repository** because it exceeds GitHub’s 100MB limit.  
+
+You can download it from:  
+👉 [Insert dataset link here – e.g., Kaggle, Hugging Face, or Google Drive]  
+
+After downloading, place the dataset inside the `nlp_dataset/` folder.
+
+---
+
+## 🧠 Trained Model
+The trained model is also excluded due to size limits.  
+
+You can download it from:  
+👉 [Insert Hugging Face Hub link OR Google Drive link]  
+
+After downloading, place the model inside the `trained_model/` folder.
+
+---
+
+## ⚡ Quick Start
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/your-username/BERT-Arabic-Text-Generation.git
+cd BERT-Arabic-Text-Generation
