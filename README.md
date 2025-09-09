@@ -22,20 +22,20 @@ Text Generation: Uses the fine-tuned model to predict and complete masked tokens
 
 ## Prerequisites
 
-Python 3.6+
+** Python 3.6+ **
 
-PyTorch
+** PyTorch **
 
-Transformers library
+** Transformers library **
 
-Datasets library
+** Datasets library **
 
 You can install the required libraries by running:
 
 ```
 pip install torch transformers datasets
 ```
-1. Handling Large Files
+1. ** Handling Large Files **
 The nlp_dataset/ and results/ directories contain files that exceed GitHub's file size limit. These directories are intentionally excluded from the repository using a .gitignore file.
 
 Dataset: You can download the public dataset from the official website. Here's the link https://sourceforge.net/projects/kalimat/files/kalimat/document-collection/
@@ -44,9 +44,14 @@ Trained Model: You can re-run the BERT-Arabic_Text_Generation.ipynb notebook to 
 
 2. Running the Code
 Clone the Repository:
-
+```
 git clone https://github.com/Abdulelah-O/BERT-text-generation-for-Arabic-language.git
+```
+```
+
 cd BERT-text-generation-for-Arabic-language
+
+```
 
 Download or Set up the Data:
 
